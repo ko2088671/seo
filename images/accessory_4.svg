@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="450" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B7280"/><stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Gradient Background -->
+  <rect width="600" height="450" rx="24" fill="url(#grad)"/>
+  
+  <!-- Subtle Grid overlay -->
+  <path d="M 0,50 L 600,50 M 0,100 L 600,100 M 0,150 L 600,150 M 0,200 L 600,200 M 0,250 L 600,250 M 0,300 L 600,300 M 0,350 L 600,350 M 0,400 L 600,400" stroke="#ffffff" stroke-width="1" stroke-opacity="0.05"/>
+  <path d="M 100,0 L 100,450 M 200,0 L 200,450 M 300,0 L 300,450 M 400,0 L 400,450 M 500,0 L 500,450" stroke="#ffffff" stroke-width="1" stroke-opacity="0.05"/>
+  
+  <!-- Main Icon Graphic -->
+        <!-- Backpack Silhouette -->
+      <rect x="220" y="140" width="160" height="200" rx="40" fill="#ffffff" fill-opacity="0.85" filter="url(#shadow)"/>
+      <rect x="240" y="240" width="120" height="90" rx="15" fill="#ffffff" fill-opacity="0.4"/>
+      <path d="M270,140 L270,110 C270,105 330,105 330,110 L330,140" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Tech Branding Overlay -->
+  <text x="40" y="380" font-family="'Outfit', 'Inter', sans-serif" font-weight="800" font-size="28" fill="#ffffff" fill-opacity="0.95">Tech Utility Pack</text>
+  <text x="40" y="410" font-family="'Outfit', 'Inter', sans-serif" font-weight="500" font-size="16" fill="#ffffff" fill-opacity="0.7" letter-spacing="2">WATERPROOF DAILY</text>
+  
+  <!-- Watermark logo -->
+  <text x="520" y="50" font-family="'Outfit', 'Inter', sans-serif" font-weight="900" font-size="18" fill="#ffffff" fill-opacity="0.3" text-anchor="end">KICKZ LAB</text>
+  
+  <!-- Top decorative badge -->
+  <rect x="40" y="35" width="80" height="24" rx="12" fill="#ffffff" fill-opacity="0.2"/>
+  <text x="80" y="51" font-family="'Outfit', 'Inter', sans-serif" font-weight="700" font-size="11" fill="#ffffff" fill-opacity="0.9" text-anchor="middle">PREMIUM</text>
+</svg>
