@@ -2,7 +2,7 @@ const PRODUCTS = [
   // Men's Shoes
   {
     id: 1,
-    name: "KICKZ 未來跑鞋 V1",
+    name: "北科大球鞋專賣店-未來跑鞋V1",
     category: "men",
     price: 6800,
     image: "assets/北科大球鞋專賣店-未來跑鞋V1.svg",
@@ -16,7 +16,7 @@ const PRODUCTS = [
   },
   {
     id: 2,
-    name: "KICKZ 高筒跑鞋",
+    name: "北科大球鞋專賣店-高筒跑鞋",
     category: "men",
     price: 8200,
     image: "assets/北科大球鞋專賣店-高筒跑鞋.svg",
@@ -30,7 +30,7 @@ const PRODUCTS = [
   },
   {
     id: 3,
-    name: "KICKZ Orange 空氣力學",
+    name: "北科大球鞋專賣店-Orange 空氣力學",
     category: "men",
     price: 5900,
     image: "assets/北科大球鞋專賣店-Orange 空氣力學.svg",
@@ -44,7 +44,7 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    name: "KICKZ 經典 Off-White 球鞋",
+    name: "北科大球鞋專賣店-經典Off-White球鞋",
     category: "men",
     price: 4900,
     image: "assets/北科大球鞋專賣店-經典Off-White球鞋.svg",
